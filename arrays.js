@@ -12,7 +12,7 @@ function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 function destructivelyAddElementToEndOfArray(array, element) {
-  array = array.shift(element)
+  array.shift(element)
   return array
 }
 
